@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Red Shopping Bag Base -->
+  <path d="M192 144C192 108.654 220.654 80 256 80C291.346 80 320 108.654 320 144V160H192V144Z" stroke="#E31C25" stroke-width="32" stroke-linecap="round"/>
+  <path d="M128 160H384L416 432H96L128 160Z" fill="#E31C25"/>
+  <!-- White Percentage Symbol -->
+  <circle cx="218" cy="242" r="18" fill="white"/>
+  <circle cx="294" cy="350" r="18" fill="white"/>
+  <line x1="316" y1="226" x2="196" y2="366" stroke="white" stroke-width="26" stroke-linecap="round"/>
+</svg>

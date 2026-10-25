@@ -1,0 +1,6 @@
+{
+  "name": "Rebajazo | Tienda Online Colombia",
+  "description": "Rebajazo Colombia - Plataforma de compras en línea con los mejores precios, envíos a todo el país y pago contra entrega en tecnología, hogar, moda y belleza.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

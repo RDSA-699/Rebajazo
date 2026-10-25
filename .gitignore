@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Production builds and test output
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# Logs and npm debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local tooling and editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Netlify local state
+.netlify/

@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Custom slim scrollbar for clean modals and drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+/* Prevent double scrollbar when modal is open */
+body.modal-open {
+  overflow: hidden !important;
+}
